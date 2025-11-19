@@ -39,14 +39,22 @@ echo "Services started!"
 echo "======================================"
 echo
 echo "Service URLs:"
-echo "  Backend API: http://localhost:8000"
-echo "  Backend Docs: http://localhost:8000/docs"
-echo "  Postgres: localhost:5432"
-echo "  Ollama: localhost:11434"
+echo "  🌐 Open WebUI: http://localhost:3000  ← Main UI"
+echo "  🔧 Backend API: http://localhost:8000"
+echo "  📚 Backend Docs: http://localhost:8000/docs"
+echo "  💾 Postgres: localhost:5432"
+echo "  🤖 Ollama: localhost:11434"
+echo
+echo "Optional:"
+echo "  ⚛️  React UI: http://localhost:5173 (run 'cd frontend && npm run dev')"
 echo
 echo "To view logs: docker-compose logs -f"
 echo "To stop services: ./scripts/stop.sh"
 echo
-echo "If you haven't pulled an Ollama model yet, run:"
-echo "  docker exec -it rag-ollama ollama pull llama2"
+echo "Next steps:"
+echo "1. Pull an Ollama model:"
+echo "     docker exec -it rag-ollama ollama pull llama2"
+echo "2. Open http://localhost:3000 and create an account"
+echo "3. Ingest documentation (see QUICKSTART.md)"
+echo "4. Configure RAG functions (see OPENWEBUI_SETUP.md)"
 echo
