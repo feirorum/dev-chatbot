@@ -1,0 +1,10 @@
+llama-index==0.10.11
+llama-index-vector-stores-postgres==0.1.5
+llama-index-embeddings-huggingface==0.1.4
+llama-index-readers-confluence==0.1.4
+llama-index-readers-file==0.1.6
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+python-dotenv==1.0.0
+sentence-transformers==2.3.1
+gitpython==3.1.41
